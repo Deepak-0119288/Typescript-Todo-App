@@ -8,7 +8,6 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "preinstall": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
