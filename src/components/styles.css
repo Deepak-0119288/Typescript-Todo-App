@@ -139,6 +139,7 @@
 }
 
 .todos__single:hover {
+  background-color: #de6834;
   box-shadow: 0 5px 15px rgba(222, 104, 52, 0.2);
   transform: translateY(-2px);
 }
@@ -175,10 +176,6 @@
 .icon:hover {
   color: #000000;
   transform: scale(1.2);
-}
-
-.task:hover {
-  background-color: #e08259;
 }
 
 /* Responsive Design */
