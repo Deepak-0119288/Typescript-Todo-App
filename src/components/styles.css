@@ -139,7 +139,6 @@
 }
 
 .todos__single:hover {
-  background-color: #e08259;
   box-shadow: 0 5px 15px rgba(222, 104, 52, 0.2);
   transform: translateY(-2px);
 }
