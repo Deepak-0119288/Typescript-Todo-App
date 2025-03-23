@@ -46,7 +46,7 @@ const TodoList: React.FC<Props> = ({
           <div
             ref={provided.innerRef}
             {...provided.droppableProps}
-            className={`todos ${snapshot.isDraggingOver ? "dragcomplete" : "remove"} task`}
+            className={`todos ${snapshot.isDraggingOver ? "dragcomplete" : "remove"}`}
           >
             <span className="todos__heading">Completed Tasks <span className="s_heading">(can only be deleted)</span></span>
             {completedTodos.map((todo, index) => (

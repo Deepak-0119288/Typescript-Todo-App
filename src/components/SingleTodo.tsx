@@ -80,7 +80,7 @@ const SingleTodo: React.FC<Props> = ({
           ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
-          className={`todos__single ${snapshot.isDragging ? "drag" : ""}`}
+          className={`todos__single ${snapshot.isDragging ? "drag" : ""} task`}
         >
           {edit ? (
             <input
