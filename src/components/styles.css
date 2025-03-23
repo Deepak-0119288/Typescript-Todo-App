@@ -139,7 +139,7 @@
 }
 
 .todos__single:hover {
-  background-color: #e07c51;
+  /* background-color: #e07c51; */
   box-shadow: 0 5px 15px rgba(222, 104, 52, 0.2);
   transform: translateY(-2px);
 }
