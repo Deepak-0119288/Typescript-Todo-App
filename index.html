@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" sizes="64x64" href="./public/white2.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Taskify</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+  <script>
+    let titleText = "Taskify - Stay Organized!";
+    let index = 0;
+  
+    function animateTitle() {
+      document.title = titleText.substring(0, index);
+      index++;
+      if (index > titleText.length) index = 0;
+      setTimeout(animateTitle, 200);
+    }
+  
+    animateTitle();
+  </script>
+  
 </html>
