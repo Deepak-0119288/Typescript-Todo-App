@@ -1,0 +1,30 @@
+/* src/index.css (global styles) */
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* scrollbar-width: thin; */
+}
+
+/* ::-webkit-scrollbar {
+  width: 8px;
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #de6834;
+  border-radius: 4px;
+} */
+
+
+
